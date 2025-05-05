@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test
+    </title>
+    
+</head>
+<body>
+    
+    <p id = "hello"> </p>
+    <button onclick="document.getElementById('hello').innerHTML = Date()">Click me</button>
+    <button  onclick="this.innerHTML = Date()">Click me</button>
+    <button onmouseover="this.innerHTML = 'Don\'t come on me'" onmouseout="this.innerHTML = 'Click me'" onkeydown="alert('Key pressed!')" onload="myFunction()">
+        Click me
+    </button>
+    <input type="text" onkeydown="alert('Key pressed!')" placeholder="Type something here..." />
+
+
+    <script>
+        function myFunction() {
+            alert("hello");
+        }
+        const a= {
+            name: "Aquera",
+            age: 23,
+            city: "New York"
+        }
+        let t ="";
+        for ( b in a ){
+            t += a[b] + " ";
+        }
+        let i = Object.entries(a);
+        console.log(i);
+        document.getElementById("hello").innerHTML = JSON.stringify(a)
+    </script>
+   <script src="object.js"></script>
+</body>
+</html>

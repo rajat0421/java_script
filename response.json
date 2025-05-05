@@ -1,0 +1,426 @@
+{
+    "Resources": [
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "formatted": ""
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6843921",
+            "userName": "saurav.7989@gmail.com",
+            "name": {
+                "givenName": "SAURAV",
+                "familyName": "KUMAR",
+                "formatted": "SAURAV KUMAR"
+            },
+            "emails": [
+                {
+                    "value": "saurav.7989@gmail.com",
+                    "display": "saurav.7989@gmail.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "Infrastructure Admin",
+            "active": true,
+            "groups": {
+                "value": 637402,
+                "$ref": "Groups/637402",
+                "display": "Operations"
+            },
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6843921"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "001"
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-04",
+                "employmentStatus": "Full-time",
+                "positionId": "1624441",
+                "teamHistory": [
+                    "2025-04-04::Operations"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-04::Full-time"
+                ],
+                "customField_status": "Active"
+            }
+        },
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "streetAddress": "Jersey",
+                    "country": "US",
+                    "formatted": "Jersey US"
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6843989",
+            "userName": "ryan.louis@home.com",
+            "name": {
+                "givenName": "Ryan",
+                "familyName": "Louis",
+                "formatted": "Ryan Louis"
+            },
+            "emails": [
+                {
+                    "value": "ryan.louis@home.com",
+                    "display": "ryan.louis@home.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "Identity Integration Engineer",
+            "active": true,
+            "groups": {
+                "value": 637402,
+                "$ref": "Groups/637402",
+                "display": "Operations"
+            },
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6843989"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "002",
+                "manager": {
+                    "value": "6843921",
+                    "$ref": "Users/6843921",
+                    "displayName": "SAURAV KUMAR"
+                }
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-04",
+                "gender": "Female",
+                "employmentStatus": "Full-time",
+                "positionId": "1624443",
+                "managerEmail": "saurav.7989@gmail.com",
+                "teamHistory": [
+                    "2025-04-04::Operations"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-04::Full-time"
+                ],
+                "customField_status": "Active"
+            }
+        },
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "formatted": ""
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6865680",
+            "userName": "kim.timb@home.com",
+            "name": {
+                "givenName": "Kimberly",
+                "familyName": "Timber",
+                "formatted": "Kimberly Timber"
+            },
+            "emails": [
+                {
+                    "value": "kim.timb@home.com",
+                    "display": "kim.timb@home.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "AWS Support Engineer",
+            "active": true,
+            "groups": {
+                "value": 637400,
+                "$ref": "Groups/637400",
+                "display": "Customer Success"
+            },
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6865680"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "010"
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-09",
+                "employmentStatus": "Full-time",
+                "positionId": "1624445",
+                "teamHistory": [
+                    "2025-04-09::Customer Success"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-09::Full-time"
+                ],
+                "customField_status": "Active"
+            }
+        },
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "formatted": ""
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6874049",
+            "userName": "rohit.n@home.com",
+            "name": {
+                "givenName": "Rohit",
+                "familyName": "N",
+                "formatted": "Rohit N"
+            },
+            "emails": [
+                {
+                    "value": "rohit.n@home.com",
+                    "display": "rohit.n@home.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "Infrastructure Admin",
+            "active": true,
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6874049"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "manager": {
+                    "value": "6865680",
+                    "$ref": "Users/6865680",
+                    "displayName": "Kimberly Timber"
+                }
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-11",
+                "employmentStatus": "Full-time",
+                "positionId": "1624441",
+                "managerEmail": "kim.timb@home.com",
+                "teamHistory": [
+                    "2025-04-11::Employees without team"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-11::Full-time"
+                ],
+                "customField_status": "Inactive"
+            }
+        },
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "formatted": ""
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6885658",
+            "userName": "aaron.lin@home.com",
+            "name": {
+                "givenName": "Aaron",
+                "familyName": "Lin",
+                "formatted": "Aaron Lin"
+            },
+            "emails": [
+                {
+                    "value": "aaron.lin@home.com",
+                    "display": "aaron.lin@home.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "AWS Support Engineer",
+            "active": true,
+            "groups": {
+                "value": 637400,
+                "$ref": "Groups/637400",
+                "display": "Customer Success"
+            },
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6885658"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "011",
+                "manager": {
+                    "value": "6843921",
+                    "$ref": "Users/6843921",
+                    "displayName": "SAURAV KUMAR"
+                }
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-14",
+                "employmentStatus": "Full-time",
+                "positionId": "1624445",
+                "managerEmail": "saurav.7989@gmail.com",
+                "teamHistory": [
+                    "2025-04-15::Customer Success"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-15::Full-time"
+                ],
+                "customField_status": "Active"
+            }
+        },
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "formatted": ""
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6890167",
+            "userName": "ryan.louis@gmail.com",
+            "name": {
+                "givenName": "Ryan",
+                "familyName": "Louis",
+                "formatted": "Ryan Louis"
+            },
+            "emails": [
+                {
+                    "value": "ryan.louis@gmail.com",
+                    "display": "ryan.louis@gmail.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "Analyst",
+            "photos": [
+                {
+                    "value": "https://s3-eu-west-1.amazonaws.com/sage-cakehr/profile_pictures/100h_c05789026eb7a7e00bfc730aad9f347aaef1f474?1744792443",
+                    "display": "https://s3-eu-west-1.amazonaws.com/sage-cakehr/profile_pictures/100h_c05789026eb7a7e00bfc730aad9f347aaef1f474?1744792443",
+                    "type": "photo",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": {
+                "value": 637400,
+                "$ref": "Groups/637400",
+                "display": "Customer Success"
+            },
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6890167"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "031",
+                "manager": {
+                    "value": "6874049",
+                    "$ref": "Users/6874049",
+                    "displayName": "Rohit N"
+                }
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-15",
+                "employmentStatus": "Full-time",
+                "positionId": "1631905",
+                "managerEmail": "rohit.n@home.com",
+                "teamHistory": [
+                    "2025-04-15::Employees without team",
+                    "2025-04-15:2025-04-15:Customer Success"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-15::Full-time"
+                ],
+                "customField_status": "Active"
+            }
+        },
+        {
+            "addresses": [
+                {
+                    "type": "work",
+                    "primary": true,
+                    "formatted": ""
+                }
+            ],
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+                "urn:ietf:params:scim:schemas:ian:2.0:User"
+            ],
+            "id": "6890175",
+            "userName": "ryan.louis1@gmail.com",
+            "name": {
+                "givenName": "Ryan",
+                "familyName": "Louis",
+                "formatted": "Ryan Louis"
+            },
+            "emails": [
+                {
+                    "value": "ryan.louis1@gmail.com",
+                    "display": "ryan.louis1@gmail.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "title": "Analyst 2",
+            "active": true,
+            "meta": {
+                "resourceType": "User",
+                "location": "Users/6890175"
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "030",
+                "manager": {
+                    "value": "6874049",
+                    "$ref": "Users/6874049",
+                    "displayName": "Rohit N"
+                }
+            },
+            "urn:ietf:params:scim:schemas:ian:2.0:User": {
+                "employmentStartDate": "2025-04-15",
+                "employmentStatus": "Full-time",
+                "positionId": "1631906",
+                "managerEmail": "rohit.n@home.com",
+                "teamHistory": [
+                    "2025-04-15::Employees without team"
+                ],
+                "employmentStatusHistory": [
+                    "2025-04-15::Full-time"
+                ],
+                "customField_status": "Active"
+            }
+        }
+    ],
+    "startIndex": 1,
+    "itemsPerPage": 7,
+    "totalResults": 7,
+    "schemas": [
+        "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+    ]
+}

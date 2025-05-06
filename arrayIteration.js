@@ -1,7 +1,4 @@
 const numbers = [45, 4, 9, 16, 25];
-
-
-
 let a = numbers.map(v=> {
     return v > 18;
     
@@ -19,3 +16,5 @@ console.log( r-1);
 
 let d;
 console.log(typeof(d));
+
+
